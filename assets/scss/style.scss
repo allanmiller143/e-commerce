@@ -1,3 +1,13 @@
 // farmework
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-@import'./bootstrap.min.scss'
+@import'./variaveis.scss';
+@import'./main.scss';
+@import'./footer.scss';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import'./header.scss';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import'./responsive.scss';
+@import'./bootstrap.min.scss';
+@import'./nav.scss';
+@import'./main-carrinho.scss';
+
+@import'./config.scss';

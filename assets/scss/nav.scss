@@ -1,0 +1,49 @@
+.navegacao{
+  background-color: $cor-secundaria;
+  ul{
+    li{
+      color: $branco;
+      position: relative;
+      padding: 10px;
+      svg{
+        margin-right: 3px;
+      }
+      &:hover{
+        background: darken($color: $cor-secundaria, $amount: 40%);
+        ul.as{
+          
+          display: block;
+        }
+      }
+
+      ul.as{
+         
+         width: 100%;
+         display: none; 
+         position: absolute;
+         top: 44px;
+         right: 0px;
+         z-index: 999;  
+         background: $cor-secundaria; 
+         border: solid 5px $cor-primaria;
+         border-right: 1px;
+         border-bottom: 1px;
+         border-left: 1px;
+         li{
+           padding:  5px 30px;
+
+           a{
+             color: $branco;
+           }
+         }
+         
+         
+      }     
+    }  
+  }    
+}
+
+
+  
+ 
+  

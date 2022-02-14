@@ -1,0 +1,22 @@
+     
+  footer{
+    background: $cor-secundaria;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    h3{
+      color: $cor-primaria;
+      font-size: 19px;
+      
+    }
+    ul{
+      color: $branco;
+      li{
+        a{
+          color: $branco;
+          &:hover{
+            color: $branco;
+          }
+        }
+      }
+    }
+  }
